@@ -28,9 +28,9 @@ item_5 = item_3; //16
 item_6 = 15; //19
 
 item_6_type = typeof item_6; //20
-console.log('item_6 == ' + item_6, + 'item_6_type == ' + item_6_type); //21
+console.log('item_6 == ' + item_6,  'item_6_type == ' + item_6_type); //21
 
 item_7 = String(item_6); //22
 
 item_7_type = typeof item_7; //24
-console.log('item_7 == ' + item_7, + 'item_7_type == ' + item_7_type); //25
+console.log('item_7 == ' + item_7,  'item_7_type == ' + item_7_type); //25
