@@ -1,19 +1,17 @@
-let numberEnteredByTheUser = prompt('введите число');
 
-if (numberEnteredByTheUser / 1 > 0) {
-  if (numberEnteredByTheUser > 0) {
-    if (numberEnteredByTheUser % 2 > 0) {
-      alert ('Введите чётное число');
+  let numberEnteredByTheUser = prompt('введите число');
+  const dataType = Number(numberEnteredByTheUser);
+  
+  if (dataType / 1 > 0) {
+    if (Number.isInteger(dataType)) {
+        alert(numberEnteredByTheUser  + ' ' + String(numberEnteredByTheUser) + String(numberEnteredByTheUser) + ' ' + String(numberEnteredByTheUser) + String(numberEnteredByTheUser) + String(numberEnteredByTheUser)); 
     } else {
-      alert(numberEnteredByTheUser  + ' ' + String(numberEnteredByTheUser) + String(numberEnteredByTheUser) + ' ' + String(numberEnteredByTheUser) + String(numberEnteredByTheUser) + String(numberEnteredByTheUser));  
-    }
+      alert('Введите целое число');
+    } 
   } else {
-    alert ('Число должно быть больше 0!');
+    alert('Введите целое, положительное число');
   }
-} else {
-  alert ('Введите число');
-}
-
+  
 
 
 
