@@ -8,7 +8,7 @@ let ageType = Number(age);
     alert('You do not have access cause your age is ' + age + " It's less then ");
     break;
   }
-  case age >= minAge && age <= maxAge: {
+  case age >= minAge && age <= maxAge: { // специально проверяю age <= maxAge тк 60 это верхняя граница, которая тоже должна пропускать пользователя
     alert("Welcome!");
     break;
   }
