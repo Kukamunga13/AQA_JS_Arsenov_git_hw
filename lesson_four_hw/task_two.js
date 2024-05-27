@@ -4,6 +4,10 @@ let age = prompt('введите возраст');
 let ageType = Number(age);
 
  switch (true) {
+  case ageType < 0: {
+    alert('возраст начинается с 0');
+    break
+  }
   case ageType < minAge: {
     alert('You do not have access cause your age is ' + age + " It's less then ");
     break;
