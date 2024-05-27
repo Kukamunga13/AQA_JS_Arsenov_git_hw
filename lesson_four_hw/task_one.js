@@ -15,5 +15,3 @@ if (ageType >= 0) {
 } else {
   alert('Technical work');
 }
-
-
