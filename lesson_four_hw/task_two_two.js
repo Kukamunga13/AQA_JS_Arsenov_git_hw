@@ -1,7 +1,7 @@
 
-let minAge = 18;
-let maxAge = 60;
-let age = prompt('введите возраст');
+const minAge = 18;
+const maxAge = 60;
+const age = prompt('введите возраст');
 
 if (age / 1 >= 0) {
   if (age >= 0) {

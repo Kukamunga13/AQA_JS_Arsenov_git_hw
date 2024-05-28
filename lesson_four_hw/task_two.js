@@ -1,7 +1,7 @@
-let minAge = 18;
-let maxAge = 60;
-let age = prompt('введите возраст');
-let ageType = Number(age);
+const minAge = 18;
+const maxAge = 60;
+const age = prompt('введите возраст');
+const ageType = Number(age);
 
  switch (true) {
   case ageType < 0: {

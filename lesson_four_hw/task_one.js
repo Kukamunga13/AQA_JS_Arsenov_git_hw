@@ -1,8 +1,8 @@
 // Также это решение к задаче task 2.3 и Task 3. Для решения Task 1 в переменной age оставляем просто значение, переменную ageType удаляем. В конструкции if else заменяем ageType на age
-let minAge = 18;
-let maxAge = 60;
-let age = prompt('введите возраст');
-let ageType = Number(age);
+const minAge = 18;
+const maxAge = 60;
+const age = prompt('введите возраст');
+const ageType = Number(age);
 
 if (ageType >= 0) {
   if (ageType < minAge) {
