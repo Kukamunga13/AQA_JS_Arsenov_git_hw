@@ -7,7 +7,6 @@ while (bytes >= 1024) {
   bytes = bytes / 1024;
   counter++;
 }
-console.log(counter);
 switch (counter) {
   case 1: {
     unit = 'kb';
