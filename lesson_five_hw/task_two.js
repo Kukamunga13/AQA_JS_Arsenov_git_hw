@@ -1,7 +1,7 @@
 
 let counter =  0;
 let unit = 'bytes';
-let bytes = 1073741824;
+let bytes = 101414;
 
 while (bytes >= 1024) {
   bytes = bytes / 1024;
