@@ -1,13 +1,27 @@
 
+// Треугольник
+const length = 5;
+let vertex = " *";
+let indentation = " ";
 
-for (let vertex = "*", counter = 0; counter < 6; counter++) {
-    console.log(vertex.repeat(counter));
+for (let i = 0; i < length; i++) {
+    console.log(vertex.repeat(i));
 }
 
-for (let vertex = "*", counter = 0; counter < 6; counter++) {
-    console.log(vertex.repeat(counter));
-    while (counter > 6 && counter != 0) {
-     console.log(vertex.substring(0, counter));
-     counter--;
-    }
+for ( let i = length; i >= 1; i-- ) {
+    console.log(vertex.repeat(i));
 }
+
+// Ромб
+
+// const length = 5;
+// let vertex = " *";
+// let indentation = " ";
+
+// for (let i = 0; i < length; i++) {
+//     console.log(vertex.repeat(i));
+// }
+
+// for ( let i = length; i >= 1; i-- ) {
+//     console.log(vertex.repeat(i));
+// }
