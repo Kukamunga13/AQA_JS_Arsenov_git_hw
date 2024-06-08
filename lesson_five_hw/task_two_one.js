@@ -16,20 +16,20 @@ for ( let i = length; i >= 1; i-- ) {
 
 const rows = 5
 const stars = '*'
-const absent = '-'
+const indentation = '-'
 
 for(let i = 1; i <= rows; i++) {
- const offset = absent.repeat(rows - i + 1)
- const tt = i > 1 ? ' ' + stars : ''
- const tr =  stars + tt.repeat(i - 1)
- console.log(offset + tr + offset)
+ const indentationForDrawing = indentation.repeat(rows - i + 1)
+ const starWithSpace = i > 1 ? ' ' + stars : ''
+ const StarsInDrawing =  stars + starWithSpace.repeat(i - 1)
+ console.log(indentationForDrawing + StarsInDrawing + indentationForDrawing)
 }
 
 for(let i = 4; i >= 1; i--) {
-    const offset = absent.repeat(rows - i + 1);
-    const tt = i > 1 ? ' ' + stars : '';
-    const tr = stars + tt.repeat(i-1);
-    console.log(offset + tr + offset)
+    const indentationForDrawing = indentation.repeat(rows - i + 1);
+    const starWithSpace = i > 1 ? ' ' + stars : '';
+    const StarsInDrawing = stars + starWithSpace.repeat(i-1);
+    console.log(indentationForDrawing + StarsInDrawing + indentationForDrawing)
 }
 
 
