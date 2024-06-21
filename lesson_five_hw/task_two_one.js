@@ -21,15 +21,15 @@ const indentation = '-'
 for(let i = 1; i <= rows; i++) {
  const indentationForDrawing = indentation.repeat(rows - i + 1)
  const starWithSpace = i > 1 ? ' ' + stars : ''
- const StarsInDrawing =  stars + starWithSpace.repeat(i - 1)
- console.log(indentationForDrawing + StarsInDrawing + indentationForDrawing)
+ const starsInDrawing =  stars + starWithSpace.repeat(i - 1)
+ console.log(indentationForDrawing + starsInDrawing + indentationForDrawing)
 }
 
 for(let i = 4; i >= 1; i--) {
     const indentationForDrawing = indentation.repeat(rows - i + 1);
     const starWithSpace = i > 1 ? ' ' + stars : '';
-    const StarsInDrawing = stars + starWithSpace.repeat(i-1);
-    console.log(indentationForDrawing + StarsInDrawing + indentationForDrawing)
+    const starsInDrawing = stars + starWithSpace.repeat(i-1);
+    console.log(indentationForDrawing + starsInDrawing + indentationForDrawing)
 }
 
 

@@ -1,5 +1,5 @@
 
-let originalProposal = 'Привет Мир Тест Первый ntcn тест Тест';
+let originalProposal = 'Hello World Test First ntcn test Test';
 let brokenDownIntoWordsOriginalProposal = originalProposal.toLowerCase().split(" ");
 let capitalizedOriginalProposal = brokenDownIntoWordsOriginalProposal.map(привет=> {
     return привет[0].toUpperCase() + привет.substring(1);
