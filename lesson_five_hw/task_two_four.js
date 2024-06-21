@@ -7,3 +7,11 @@ let capitalizedOriginalProposal = brokenDownIntoWordsOriginalProposal.map(при
 let stringCapitalizedOriginalProposal = capitalizedOriginalProposal.join(" "); 
 let finelOriginalProposal = stringCapitalizedOriginalProposal.replaceAll(' ', '');
 console.log(finelOriginalProposal[0].toLowerCase() + finelOriginalProposal.slice(1));
+
+
+
+
+const fru = ["яблоко", "апельсин","арбуз","персик","дыня"];
+const [firstFru, thirdFru] = fru;
+console.log(firstFru);
+console.log(thirdFru);
