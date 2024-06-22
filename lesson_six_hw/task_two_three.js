@@ -1,6 +1,5 @@
 
-// - 
-
+// 3. Напишите функцию, которая принимает на вход массив чисел, убирает из него дубликаты и возвращает массив с только уникальными значениями.
 const arrNumbers = [1,1,1,2,3,2,4,5,5, 4, 6];
 function checkDuplicateNumbers(arr) {
   const numbersWithoutDuplicates = [];
@@ -10,6 +9,5 @@ function checkDuplicateNumbers(arr) {
     }
   } return numbersWithoutDuplicates;
 }
-
 console.log(checkDuplicateNumbers(arrNumbers));
 
