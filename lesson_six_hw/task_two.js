@@ -12,20 +12,19 @@
 
 
 //1. сравнения моих пицц с пиццами конкурентов
-// const competitorPizzas = ['Peperoni', 'Caprichosa', 'Diablo', '4 cheeses', 'hawai'];
-// const myPizzas = ['Peperoni', 'Caprichosa', 'Diablo', '4 cheeses', 'hawai'];
-
-const myPizzas = ['Peperoni', 'Caprichosa', 'Diablo', '4 cheeses', 'hawai'];
+const myPizzas = ['Peperoni', 'Caprichosa', 'Diablo', '4 cheeses', 'hawai', 'test pizza'];
 
 function checkPizzas(myPizzas) {
   const competitorPizzas = ['Peperoni', 'Caprichosa', 'Diablo', '4 cheeses', 'hawai'];
-    const noCompetitor = []; 
+  const noCompetitor = []; 
     for ( i = 0; i < myPizzas.length; i++ ) {
       if (myPizzas[i] != competitorPizzas[i]) {
         noCompetitor.push(myPizzas[i]);
-        return noCompetitor;
-      } 
+      }
+    } 
+    if (noCompetitor.length === 0) {
       return null;
-    }
- }
+     } return noCompetitor;
+
+}
 console.log(checkPizzas(myPizzas));
