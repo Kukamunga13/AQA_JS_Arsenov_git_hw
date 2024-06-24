@@ -5,8 +5,8 @@
 // 5. Вернуть result из функции
 
 function getOnlyNumbers(arrayOnAnyValues) {
-  const result = arrayOnAnyValues.filter(meaning => Number.isNaN(meaning)); 
+  const result = arrayOnAnyValues.filter(meaning => Number.isFinite(meaning)); 
   return result;
 } 
 
-console.log(getOnlyNumbers([1, NaN, true, 5, 'hellow', undefined, 15.5, {}, []]));
+console.log(getOnlyNumbers([NaN, 1, true, '5', 'hellow', undefined, 15.5, {}, [], 'test']));
